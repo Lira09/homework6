@@ -1,21 +1,21 @@
 package com.company;
 
 public class Weapon {
-    private String hammerType;
-    private String hammerName;
+    private String weaponType;
+    private String weaponName;
 
 
-    public Weapon(String hammerName, String hammerType) {
-        this.hammerName = hammerName;
-        this.hammerType = hammerType;
+    public Weapon(String weaponName, String weaponType) {
+        this.weaponName = weaponName;
+        this.weaponType = weaponType;
     }
 
-    public String getHammerType() {
-        return hammerType;
+    public String getWeaponType() {
+        return weaponType;
     }
 
-    public String getHammerName() {
-        return hammerName;
+    public String getWeaponName() {
+        return weaponName;
     }
 }
 

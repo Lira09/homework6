@@ -13,6 +13,6 @@ public class Skelet extends Boss{
 
     @Override
     public String printInfo() {
-        return "arrow ="+arrow;
+        return super.printInfo() + "  Number of arrows:"+getArrow();
     }
 }
