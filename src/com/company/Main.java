@@ -9,6 +9,7 @@ public class Main {
 		boss.setHealth(300);
 		boss.setWeapon(weapon);
 		System.out.println("Boss health = " + boss.getHealth() + " Boss damage = " + boss.getDamage() + " " + boss.getWeapon().getHammerName() + " " + boss.getWeapon().getHammerType());
+		System.out.println(boss.printInfo());
 
 		Skelet s1 = new Skelet();
 		s1.setArrow(6);
